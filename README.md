@@ -1,2 +1,2 @@
 # fortify
-A tower defence game in a madieval setting build for mobile devices using Unity
+A tower defence game in a medieval setting built for mobile devices using Unity
