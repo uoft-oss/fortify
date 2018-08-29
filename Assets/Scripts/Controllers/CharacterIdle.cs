@@ -6,7 +6,7 @@ public class CharacterIdle : MonoBehaviour {
 
     public float speed = 5.0f;
     public float directionChangeSlowInterval = 0.15f;
-    public float directionChangeFastInterval = 0.5f;
+    public float directionChangeFastInterval = 0.8f;
     public float maxHeadingChange = 30;
 
     private CharacterController controller;

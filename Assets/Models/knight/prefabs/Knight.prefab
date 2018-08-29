@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 4439798562605986}
   - component: {fileID: 95956541308575124}
   - component: {fileID: 143182341965019530}
+  - component: {fileID: 114293113140933120}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -1037,7 +1038,7 @@ Animator:
   m_GameObject: {fileID: 1033224486604082}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 762e6398b10a5a14983e98cce379f1ac, type: 3}
-  m_Controller: {fileID: 9100000, guid: 82ce7556aa2628a42aef13980c8e5f71, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9e76244f82916074ebcaa68349778699, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1046,6 +1047,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114293113140933120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033224486604082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6f7a4d2a77e8f47ad0dfef043d9c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  directionChangeSlowInterval: 0.05
+  directionChangeFastInterval: 0.84
+  maxHeadingChange: 30
 --- !u!137 &137221315351191924
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
