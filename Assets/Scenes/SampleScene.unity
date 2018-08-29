@@ -213,6 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505762553}
   - component: {fileID: 505762554}
+  - component: {fileID: 505762555}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -227,13 +228,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 505762552}
-  m_LocalRotation: {x: 0.6323711, y: 0.15883182, z: 0.13624783, w: 0.7458658}
+  m_LocalRotation: {x: -0.6324266, y: -0.15874651, z: -0.13615626, w: -0.7458536}
   m_LocalPosition: {x: 0, y: 3.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 632027007}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 64.164, y: 69.901, z: 68.023}
+  m_LocalEulerAnglesHint: {x: 424.18, y: 69.901, z: 68.023}
 --- !u!108 &505762554
 Light:
   m_ObjectHideFlags: 0
@@ -272,6 +273,18 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &505762555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505762552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea6b99653c08a6479d8aaf08d56ab84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayDuration: 8
 --- !u!1 &596130971
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +365,7 @@ GameObject:
   - component: {fileID: 904119313}
   - component: {fileID: 904119312}
   - component: {fileID: 904119315}
+  - component: {fileID: 904119316}
   m_Layer: 8
   m_Name: Camera
   m_TagString: Untagged
@@ -425,7 +439,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 26.991467
+  field of view: 55.6
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -436,11 +450,11 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
+  m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!114 &904119315
@@ -458,6 +472,19 @@ MonoBehaviour:
   requiresDepthTexture: 0
   requiresColorTexture: 0
   m_Version: 1
+--- !u!114 &904119316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 904119310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f0210ff39e7ad4db826276aecbb81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 904119314}
+  prefab: {fileID: 1033224486604082, guid: f58f184b45f8a9d468dcad3f7fd28fdd, type: 2}
 --- !u!1 &1021734363
 GameObject:
   m_ObjectHideFlags: 0
