@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterIdle : MonoBehaviour {
+public class CharacterMovement : MonoBehaviour {
 
     public float speed = 5.0f;
     public float directionChangeSlowInterval = 0.15f;
     public float directionChangeFastInterval = 0.8f;
     public float maxHeadingChange = 30;
+    public bool attacking = false;
 
     private CharacterController controller;
     private float heading;
@@ -46,23 +47,29 @@ public class CharacterIdle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Time.time - startTime > Random.Range(7, 10)) {
-            idle = !idle;
-            startTime = Time.time;
-            if (idle) directionChangeInterval = directionChangeFastInterval;
-            else directionChangeInterval = directionChangeSlowInterval;
-        }
-        
-        transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
-        
-        if (idle) {
-            Debug.Log("idling");
-            animator.SetBool("Walking", false);
+        if (!attacking) {
+            animator.SetBool("Attacking", false);
+            if (Time.time - startTime > Random.Range(7, 10)) {
+                idle = !idle;
+                startTime = Time.time;
+                if (idle) directionChangeInterval = directionChangeFastInterval;
+                else directionChangeInterval = directionChangeSlowInterval;
+            }
+            
+            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
+            
+            if (idle) {
+                Debug.Log("idling");
+                animator.SetBool("Walking", false);
+            }
+            else {
+                animator.SetBool("Walking", true);
+                var forward = transform.TransformDirection(Vector3.forward);
+                controller.SimpleMove(forward * speed);
+            }
         }
         else {
-            animator.SetBool("Walking", true);
-            var forward = transform.TransformDirection(Vector3.forward);
-            controller.SimpleMove(forward * speed);
+            animator.SetBool("Attacking", true);
         }
 	}
 }

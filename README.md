@@ -12,4 +12,6 @@ A tower defence game in a medieval setting built for mobile devices using Unity
 ## Credits
 - Textures: http://devassets.com/assets/general-textures/
 - Knight Model: https://sketchfab.com/models/3c7fa6752cd04a65b1dcb8e536ada380
+- Great Hall: https://sketchfab.com/models/aee77bd30eeb4415b915350f5b25dbcd#download
+- Medieval Sword: https://sketchfab.com/models/da574cba504e4b83a3293f3d3bd067fb
 - Model Animations: https://www.mixamo.com/
