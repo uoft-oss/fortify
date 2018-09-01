@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour {
+public class CharacterWander : MonoBehaviour {
 
     public float speed = 5.0f;
     public float directionChangeSlowInterval = 0.15f;
