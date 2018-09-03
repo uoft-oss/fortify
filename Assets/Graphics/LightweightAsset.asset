@@ -20,11 +20,11 @@ MonoBehaviour:
   m_OpaqueDownsampling: 1
   m_SupportsHDR: 1
   m_MSAA: 4
-  m_RenderScale: 1.78
+  m_RenderScale: 2.5
   m_SupportsDynamicBatching: 0
   m_DirectionalShadowsSupported: 1
   m_ShadowAtlasResolution: 2048
-  m_ShadowDistance: 450
+  m_ShadowDistance: 8000
   m_ShadowCascades: 2
   m_Cascade2Split: 0.25
   m_Cascade4Split: {x: 0.067, y: 0.2, z: 0.467}
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_KeepSoftShadowVariants: 1
   m_ResourcesAsset: {fileID: 11400000, guid: aac5a08c32552a14c89394b703f1978a, type: 2}
   m_SavedXRConfig:
-    renderScale: 1.78
+    renderScale: 2.5
     viewportScale: 1
     useOcclusionMesh: 1
     occlusionMaskScale: 1
