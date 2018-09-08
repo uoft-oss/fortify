@@ -152,6 +152,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114885611670146056, guid: c59523d167f33cb44bbe0e13eda752c1,
+        type: 2}
+      propertyPath: m_OverrideArea
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c59523d167f33cb44bbe0e13eda752c1, type: 2}
   m_IsPrefabAsset: 0
@@ -430,10 +435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba6af5eaa8d821f4e93093fd37ee3484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderShadows: 1
-  requiresDepthTexture: 0
-  requiresColorTexture: 0
-  m_Version: 1
 --- !u!114 &904119316
 MonoBehaviour:
   m_ObjectHideFlags: 0
