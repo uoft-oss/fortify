@@ -1154,7 +1154,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1167,9 +1167,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b800522fa0bb73044899cec06fe5c53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goal: {fileID: 4007872323603458, guid: a390ca0016b4ec84f92c9663de4a9fc6, type: 2}
+  m_Name:
+  m_EditorClassIdentifier:
+  goal: {fileID: 4960844148657222, guid: e2036c96f901c434e87d152c199c64a6, type: 2}
 --- !u!114 &114884727835649458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1179,8 +1179,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a6f7a4d2a77e8f47ad0dfef043d9c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   speed: 5
   directionChangeSlowInterval: 0.15
   directionChangeFastInterval: 0.8
