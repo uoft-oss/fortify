@@ -1,8 +1,8 @@
 # Fortify
-A tower defence game in a medieval setting built for mobile devices using Unity
+A tower defence game in a medieval setting built using Unity
 
 ## Prerequisites
-- Unity 2018.2.2f1
+- Unity 2018.2.6f1
 
 ## Getting Started
 1. Clone this repository 
