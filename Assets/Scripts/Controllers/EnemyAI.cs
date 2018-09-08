@@ -28,11 +28,9 @@ public class EnemyAI : MonoBehaviour {
         remaining = Vector3.Distance(transform.position, goal.position);
 
         Debug.Log(Mathf.Abs(remaining - dist));
+        reachedGoal = Mathf.Abs(remaining - dist) <= 0.2;
 
-        if (!reachedGoal) {
-            reachedGoal = Mathf.Abs(remaining - dist) <= 0.2;
-        }
-        else {
+        if (reachedGoal) {
             animator.SetBool("Walking", false);
             animator.SetBool("Attacking", true);
         }
