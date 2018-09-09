@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 33243983425698620}
   - component: {fileID: 23612525973321970}
   - component: {fileID: 65643476244014632}
+  - component: {fileID: 114813262953796804}
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: ToAttack
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,3 +97,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114813262953796804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820118435450548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e96bd9e535d02b418ccef0d68d703d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
