@@ -21,7 +21,7 @@ public class EnemyAI : MonoBehaviour {
         animator.SetBool("Walking", true);
         remaining = Vector3.Distance(transform.position, goal.position);
 
-        InvokeRepeating("checkDistance", 1.0f, 1.0f);
+        //InvokeRepeating("checkDistance", 1.0f, 1.0f);
         InvokeRepeating("CheckCollision", 1.0f, 2.0f);
 	}
 
