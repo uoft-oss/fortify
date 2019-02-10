@@ -1,7 +1,7 @@
 # Fortify
 A tower defence game in a medieval setting built using Unity
 
-<img src="https://github.com/uoft-oss/fortify/blob/master/Assets/Preview/preview3.gif">
+<img src="https://i.imgur.com/ZvSwhTB.gif">
 
 ## Prerequisites
 - Unity 2018.2.6f1 or later
@@ -12,7 +12,7 @@ A tower defence game in a medieval setting built using Unity
 2. Open with unity.
 3. Scenes are located in Assets/Scenes
 
-<img src="https://github.com/uoft-oss/fortify/blob/master/Assets/Preview/preview1.PNG" width="640px" height="auto">
+<img src="https://i.imgur.com/5gBB2Cd.png" width="640px" height="auto">
 
 ## Contributing
 1. Fork this repository
@@ -23,7 +23,7 @@ A tower defence game in a medieval setting built using Unity
 ## Bugs
 If any bugs are found please report them. Feel free to create an issue at anytime.
 
-<img src="https://github.com/uoft-oss/fortify/blob/master/Assets/Preview/preview2.PNG" width="640px" height="auto">
+<img src="https://i.imgur.com/uzu39Ag.png" width="640px" height="auto">
 
 ## Credits
 - Textures: http://devassets.com/assets/general-textures/
