@@ -14,11 +14,14 @@ A tower defence game in a medieval setting built using Unity
 
 <img src="https://i.imgur.com/5gBB2Cd.png" width="640px" height="auto">
 
+## Moderators
+1. Kalindu De Costa (**@kalindudc**)
+
 ## Contributing
 1. Fork this repository
 2. Pick up an issue and make your changes
    1. Create a new branch for every new feature
-3. Issue pull request and asign **@kalindudc** as reviewer
+3. Create a pull request and assign one of the moderators as a as reviewer
 
 ## Bugs
 If any bugs are found please report them. Feel free to create an issue at anytime.
